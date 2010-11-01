@@ -1,0 +1,25 @@
+Sortida del test d'inclusió d'un Punt/Point en un cercle per al fitxer de proves entradaTestExercici3_2.txt
+===========================================================================================================
+Output of the point-in-circle test for the test file entradaTestExercici3_2.txt
+
+Punt/Point 1: Exterior
+Punt/Point 2: Frontera/Boundary
+Punt/Point 3: Interior
+Punt/Point 4: Interior
+Punt/Point 5: Frontera/Boundary
+Punt/Point 6: Exterior
+Punt/Point 7: Exterior
+Punt/Point 8: Exterior
+Punt/Point 9: Exterior
+Punt/Point 10: Exterior
+Punt/Point 11: Exterior
+Punt/Point 12: Exterior
+Punt/Point 13: Interior
+Punt/Point 14: Interior
+Punt/Point 15: Interior
+Punt/Point 16: Exterior
+Punt/Point 17: Frontera/Boundary
+Punt/Point 18: Exterior
+Punt/Point 19: Frontera/Boundary
+Punt/Point 20: Exterior
+Punt/Point 21: Frontera/Boundary
