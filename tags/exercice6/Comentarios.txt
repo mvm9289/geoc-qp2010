@@ -1,0 +1,42 @@
+--=== Ejercicio 6: Galerias de Arte ===-
+
+Algoritmo:
+
+	El objetivo del programa consiste en que dado un poligono (que representa una galeria de arte)
+	hay que situar en los vertices del poligono como mucho n/3 (parte entera inferior) vigilantes.
+	
+	Para ello primeramente se realiza la triangulacion del poligono por el metodo de recortar orejas
+	optimizado (coste O(n^2)).
+	Una vez triangulado se realiza una 3-coloracion de los vertices teniendo en cuenta las adyacencias
+	anadidas por las diagonales.
+	Cuando tenemos los vertices coloreados se situa un vigilante en cada vertice de uno de los tres
+	grupos de vertices (cada color forma un grupo) obtenidos, concretamente se selecciona el grupo
+	que contiene menos vertices.
+	
+Entrada:
+
+	La entrada del programa consiste en un poligono simple. La entrada se puede realizar tanto por
+	fichero (tal y como se indica en las instrucciones del visor) como por pantalla.
+	
+Salida:
+
+	El programa mostrara la triangulacion del poligono pintando con segmentos blancos las diagonales
+	y mostrara donde quedan situados los vigilantes con puntos amarillos.
+	
+Informacion Adicional:
+
+	Se ha aumentado considerablemente el grosor de los puntos para que sea mas sencillo visualizar
+	el resultado desde un primer momento.
+	Tambien se ha deshabilitado la introduccion de puntos, segmentos y circumferencias, primeramente
+	por que el programa se centra en los poligonos y segundo por que al hacer uso de puntos y segmentos
+	para mostrar el resultado podria haber problemas a la hora de interactuar con el programa si uno se
+	dedica a introducir/borrar puntos o segmentos.
+	
+Bibliografia:
+
+	Computational Geometry in C,	J. O Rourke
+	Computational Geometry - Algorithms and Aplications, M. de Berg - M. van Krevel ...
+	
+Autor:
+
+	Miguel Angel Vico Moya

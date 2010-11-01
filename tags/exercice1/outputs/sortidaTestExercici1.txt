@@ -1,0 +1,22 @@
+
+
+
+Output of the segment intersection test for the test file entradaTestExercici1.txt
+==================================================================================
+
+Pair 1: They do not intersect
+Pair 2: They intersect in a point interior to both segments
+Pair 3: They do not intersect
+Pair 4: They intersect in an endpoint of both segments
+Pair 5: They intersect in an endpoint of both segments, which is interior to the other segment
+Pair 6: They intersect in an endpoint of both segments, which is interior to the other segment
+Pair 7: They do not intersect
+Pair 8: They intersect in a segment which is a subset of both segments
+Pair 9: They intersect in an endpoint of both segments
+Pair 10: They intersect in one of the segments which is a subset of the other one
+Pair 11: They do not intersect
+Pair 12: They intersect in one of the segments which is a subset of the other one
+Pair 13: They do not intersect
+Pair 14: They do not intersect
+
+
